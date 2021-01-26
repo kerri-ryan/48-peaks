@@ -1,3 +1,8 @@
+body {
+  background-color: #2d283e;
+  color: #d1d7e0;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +39,35 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+#link:visited {
+  text-decoration: none;
+  color: #def2f1;
+}
+#link:link {
+  color: #def2f1;
+  text-decoration: none;
+}
+#link:hover {
+  animation: fontbulger 1s infinite;
+  text-decoration: none;
+  color: #def2f1;
+}
+#link:active {
+  color: #def2f1;
+  text-decoration: none;
+}
+
+@keyframes fontbulger {
+  0% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 20px;
+  }
+  100% {
+    font-size: 16px;
   }
 }
