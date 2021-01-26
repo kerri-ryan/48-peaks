@@ -15,19 +15,20 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    backgroundColor: '#2D283E',
+    backgroundColor: '#173e43',
   },
   gridList: {
     width: 500,
     height: 450,
-    backgroundColor: '#4C495D',
     padding: '12px',
+    border: '1px solid #3fb0ac',
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
   },
   title: {
-    color: '#D1D7E0',
+    color: '#ff6700',
+    fontWeight: 'bold',
   },
 }));
 

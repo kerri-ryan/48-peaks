@@ -1,6 +1,6 @@
 body {
-  background-color: #2d283e;
-  color: #d1d7e0;
+  background-color: #dddfd4;
+  color: #feffff;
 }
 
 .App {
@@ -44,20 +44,24 @@ body {
 
 #link:visited {
   text-decoration: none;
-  color: #def2f1;
+  color: #fae596;
+  font-weight: bold;
 }
 #link:link {
-  color: #def2f1;
+  color: #fae596;
   text-decoration: none;
+  font-weight: bold;
 }
 #link:hover {
   animation: fontbulger 1s infinite;
   text-decoration: none;
-  color: #def2f1;
+  color: #fae596;
+  font-weight: bold;
 }
 #link:active {
-  color: #def2f1;
+  color: #fae596;
   text-decoration: none;
+  font-weight: bold;
 }
 
 @keyframes fontbulger {

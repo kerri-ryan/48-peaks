@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { withRouter } from 'react-router-dom';
-import { Grid, Paper } from '@material-ui/core';
+import { Paper } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -13,13 +13,12 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   paper: {
-    color: '#181818',
+    color: '#FEFFFF',
     padding: '4px',
-    backgroundColor: '#D1D7E0',
-    border: '2px solid #802BB1',
-  },
-  quote: {
-    fontStyle: 'italic',
+    backgroundColor: '#3fb0ac',
+    boxShadow: '5px 10px #173e43',
+    marginLeft: theme.spacing(20),
+    marginRight: theme.spacing(20),
   },
 }));
 
@@ -29,10 +28,11 @@ const FormConfirmation = () => {
     <div className={classes.root}>
       <Paper className={classes.paper}>
         <h6>
-          Thanks for signing up! Please visit our trails page to begin adding
-          your hikes.
+          Copper mug poke blog, bespoke before they sold out organic gentrify
+          man bun pok pok tilde yuccie swag mixtape lomo. Raclette wayfarers
+          prism quinoa, air plant twee actually artisan cloud bread tousled
+          cred.
         </h6>
-        <h6 className={classes.quote}>Hike more, worry less</h6>
       </Paper>
     </div>
   );

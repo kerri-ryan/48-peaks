@@ -14,11 +14,11 @@ const useStyles = makeStyles((theme) => ({
   },
   multilineColor: {
     color: '#181818',
-    backgroundColor: '#D1D7E0',
+    backgroundColor: '#dddfd4',
   },
   button: {
-    backgroundColor: '#802BB1',
-    color: '#FEFFFF',
+    backgroundColor: '#fae596',
+    color: '#181818',
   },
   container: {
     display: 'flex',
@@ -26,10 +26,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: theme.spacing(1),
+    backgroundColor: '#173e43',
   },
   title: {
     flexGrow: 1,
-    color: '#802BB1',
+    color: '#fae596',
     fontWeight: '900',
   },
 }));
@@ -37,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#D1D7E0',
+      main: '#fae596',
     },
     secondary: {
       main: '#D1D7E0',
